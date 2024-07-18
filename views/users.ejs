@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('./partials/head'); %>
+</head>
+<body>
+<%- include('./partials/navbar'); %>
+<div class="container">
+    <h3>Postman<h3>
+    <h5>
+    All Users: GET http://localhost:port/api/server</br></br>
+
+    User by id: GET http://localhost:port/api/server/2 </br></br>
+
+    Create user: POST http://localhost:port/api/server</br>
+        x-www-from-urlencoded: {firstName: Kolya, lastName: Ivanov}</br></br>
+
+    Update user: PUT http://localhost:port/api/server/4</br>
+        x-www-from-urlencoded: {firstName: Alexander, lastName: Ivanov}</br></br>
+
+    DELETE: http://localhost:port/api/server/2</br></br>
+    </h5>
+</div>
+
+</body>
+</html>
